@@ -61,6 +61,10 @@ public class ElementUtil {
 		getElement(locator).sendKeys(value);
 	}
 
+	public void doClear(By locator) {
+		getElement(locator).clear();
+	}
+
 	public void doSendKeys(By locator, String value) {
 		WebElement ele = getElement(locator);
 		ele.clear();

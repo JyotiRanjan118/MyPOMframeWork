@@ -1,6 +1,7 @@
 package com.qa.opencart.tests;
 
 import com.qa.opencart.driverfactory.DriverFactory;
+import com.qa.opencart.pages.AccountsPage;
 import com.qa.opencart.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -14,7 +15,7 @@ public class BaseTest {
     Properties prop;
     WebDriver driver;
     LoginPage loginPage;
-
+    AccountsPage accountsPage;
 
 
     @BeforeTest
